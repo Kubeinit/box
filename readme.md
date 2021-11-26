@@ -23,30 +23,30 @@ The enclosure is designed as a rackable unit, using 7U. It tries to minimize the
 
 #### Enclosure 3D renders
 
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.33.jpg)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.34.jpg)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.35.jpg)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.36.jpg)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.37.jpg)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.38.jpg)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.39.jpg)
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.33.jpg">Title|<img width="1604" alt="2" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.34.jpg">Title|<img width="1604" alt="3" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.35.jpg">Title|
+|<img width="1604" alt="4" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.36.jpg">Title|<img width="1604" alt="5" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.37.jpg">Title|<img width="1604" alt="6" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.38.jpg">Title|
+|<img width="1604" alt="7" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.39.jpg">Title|<img width="1604" alt="8" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.39.jpg">Title|<img width="1604" alt="9" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/renders/desk.39.jpg">Title|
 
 #### Mechanical views
 
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/3.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/4.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/5.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/6.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/7.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/8.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/10.PNG)
-![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/Capture.PNG)
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/3.PNG">Title|<img width="1604" alt="2" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/4.PNG">Title|<img width="1604" alt="3" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/5.PNG">Title|
+|<img width="1604" alt="4" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/6.PNG">Title|<img width="1604" alt="5" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/7.PNG">Title|<img width="1604" alt="6" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/8.PNG">Title|
+|<img width="1604" alt="7" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/10.PNG">Title|<img width="1604" alt="8" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/Capture.PNG">Title|<img width="1604" alt="9" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/Capture.PNG">Title|
 
 ### Hardware components description
 
 Here will be described the different HW combinations for configuring a Kubeinit cluster
 
-The configuration of a Kubeinit chassis is dynamic enough to hold 8 different devices in its bays. In the next picture you can see a general frontal view of different components that can be allocated on each Kubeinit chassis. In the next image from left to right can be seen, compute-node, gpu-bay, compute-node, gpu-bay, compute-node, storage-bay, compute-node, gpu-bay.
+The configuration of a Kubeinit chassis is dynamic enough to hold 8 different devices in
+its bays. In the next picture you can see a general frontal view of different components that
+can be allocated on each Kubeinit chassis. In the next image from left to right can be seen,
+compute-node, gpu-bay, compute-node, gpu-bay, compute-node, storage-bay, compute-node, gpu-bay.
+
+![](https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/parts/7.PNG)
 
 ### Raspberry Pi remote management
 
@@ -110,11 +110,7 @@ There is a maximum number of additional devices that can be added, and this is b
 - Space: Up to 4 node pods with 1 external device each.
 - Power: Each PCIe 16x slot can deliver up to 75w, if there is more power needed then there is the possibility to add 2 Flex ATX PSUs. Each 8-pin connector on the external cards theoretically can deliver up to 150w so forth, the 2 PSUs should allow to connect up to 2 external cards with 2 x 8-pin connector for high power demands.
 
-
-
 ## Deployment configurations
-
-
 
 ### Nodes configuration for deploying OpenShift
 
@@ -125,13 +121,9 @@ There is a maximum number of additional devices that can be added, and this is b
 | Master          | 3         | OpenShift API master, Kubernetes scheduler                                  |
 | Compute         | 3         | Runs the application containers                                             |
 
-
 **** The bastion host in this POC can be the raspberry pi node integrated in the front cover.
 
 ### Nodes configuration for deploying OpenStack
-
-
-
 
 | Node type   | Quantity | Description |
 | ----------- | -------- | ----------- |
@@ -139,6 +131,5 @@ There is a maximum number of additional devices that can be added, and this is b
 | Computes    | 4        |             |
 | Undercloud  | 1        |             |
 | \*\*\*      |          |             |
-
 
 **** This node can be used also (raspberry pi node integrated in the front cover).
