@@ -50,7 +50,7 @@ compute-node, gpu-bay, compute-node, gpu-bay, compute-node, storage-bay, compute
 
 ### Raspberry Pi remote management
 
-There is a Raspberry Pi attached to the front cover of the chassis with the official 7” touch screen. This allows to:
+There is a Raspberry Pi attached to the front cover of the chassis with the official [7” touch screen](https://www.raspberrypi.org/products/raspberry-pi-touch-display/). This allows to:
 
 - Control the 3 fan array in the back of the case.
 - Show SNMP statistics from the cluster.
@@ -90,12 +90,16 @@ Redundancy should be provided from two networking switches based on the same mod
 
 For non redundant scenarios which can be used for non-critical production ready environments, there are multiple options depending on the size and number of ports.
 
-- 16 ports 10GbE switch Netgear XS716E
-- Raspberry Pi node
-- Raspberry Pi display views
-- Diagonal 1
-- Diagonal 2
-- Diagonal 3
+- 16 ports 10GbE switch [Netgear XS716E](https://www.netgear.es/business/products/switches/web-managed/XS716E.aspx)
+
+
+### Raspberry Pi node
+
+#### Raspberry Pi display views
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accessories/rp1.PNG">Title|<img width="1604" alt="2" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accessories/rp2.PNG">Title|<img width="1604" alt="3" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accessories/rp3.PNG">Title|
 
 ### Additional storage
 
