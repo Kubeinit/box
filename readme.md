@@ -7,9 +7,7 @@
 
 # Kubeinit In A Box 
 
-
-- Main assembly: 05_assemblies/case.SLDASM
-- Chasis parts: 00_chasis
+- Main assembly: https://github.com/Kubeinit/box/blob/master/00_assemblies/kubebox.SLDASM
 
 ## Reference Architecture:
 
