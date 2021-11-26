@@ -135,3 +135,10 @@ There is a maximum number of additional devices that can be added, and this is b
 | \*\*\*      |          |             |
 
 **** This node can be used also (raspberry pi node integrated in the front cover).
+
+Disclaimer note:
+All third party trademarks (including logos and icons) referenced by Kubeinit
+remain the property of their respective owners. Unless specifically identified
+as such, Kubeinit's use of third party trademarks does not indicate any relationship,
+sponsorship, or endorsement between Kubeinit and the owners of these trademarks.
+All references by Kubeinit are for educational or references purposes.
