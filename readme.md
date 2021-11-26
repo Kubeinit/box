@@ -99,7 +99,7 @@ For non redundant scenarios which can be used for non-critical production ready 
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="1" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accessories/rp1.PNG">Title|<img width="1604" alt="2" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accessories/rp2.PNG">Title|<img width="1604" alt="3" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accessories/rp3.PNG">Title|
+|<img width="1604" alt="1" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accesories/rp1.PNG">Title|<img width="1604" alt="2" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accesories/rp2.PNG">Title|<img width="1604" alt="3" src="https://raw.githubusercontent.com/Kubeinit/box/master/07_pics/2/accesories/rp3.PNG">Title|
 
 ### Additional storage
 
